@@ -7,33 +7,41 @@ def find_factors(number):
       factors.append(i)
   return factors
 
-def check_prime_factors(factors):
- 
-  temp = []
-  for i in factors:
-    count = 0
-    for z in range(1,i):
-      
-      if i%z ==0:
-        print "i= ", i
-        print "z= ", z
-        count = count+1
-        print count
-        print "--------"
-        if count <=1:
-          temp.append(i)
 
-  return temp
-g = [1,5,7,9]
+
+
+def check_prime_factors(factors):
+  for i in factors:
+    print "i", i
+    count = 0
+    for j in range(1, i+1):
+      print "j", j
+      if i % j ==0:
+        print "smthg"
+        count = count+1
+        if count >=2:
+          print i
+          print "Pasha"
+          factors.remove(i)
+  return factors
+
+
+
+
+
+  
+g = [5,7,9,11,17,19,23,31,33,34,36]
 print check_prime_factors(g)
 
 
+"""if i % j ==0:
+        print "smthg"
+        count = count+1
+        if count >=2:
+          print "Pasha"
+          factors.remove(i)
 
-print 5%1
-
-
-
-
+"""
 """import pymongo
 from pymongo import Connection
 
