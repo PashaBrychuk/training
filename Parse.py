@@ -7,9 +7,7 @@ from bs4 import BeautifulSoup
 BASE_URL = 'http://www.weblancer.net/projects/'
 
 
-def get_html(url):
-    response = urllib.request.urlopen(url)
-    return response.read()
+
 
 
 def get_page_count(html):
@@ -26,7 +24,7 @@ def parse(html):
     projects = []
     for row in rows:
 
-        cols = row.find_all('td')
+        cols = row.find_all('td') 
 
         projects.append({
             'title': cols[0].a.text,
