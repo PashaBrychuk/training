@@ -13,27 +13,27 @@ import unittest
 
 
 def make_bricks(small, big, goal):
-	if big !=0:
-		for i in range(1,big+1):
+	#if big !=0:
+		for i in range(0,big+1):
 			for j in range(0,small+1):
 				if i*5+j==goal:
 					return True
-	return False
+		return False
 
 
-if make_bricks(3, 1, 8)==  True:
+if make_bricks(3, 1, 8) ==  True:
 	print "OK"
 else:
 	print "Fail"
-if make_bricks(3, 1, 9)==  False:
+if make_bricks(3, 1, 9) ==  False:
 	print "OK"
 else:
 	print "Fail"
-if make_bricks(3, 2, 10)== True:
+if make_bricks(3, 2, 10) == True:
     print "OK"
 else:
 	print "Fail"
-if make_bricks(3, 2, 8)== True:
+if make_bricks(3, 2, 8) == True:
 	print "OK"
 else:
 	print "Fail"
