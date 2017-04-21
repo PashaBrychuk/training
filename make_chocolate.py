@@ -1,5 +1,10 @@
 def make_chocolate(small, big, goal):
-  if small+big*5>=goal:
-    if goal%5<=small:
-      return abs(goal - big*5)
+  maxBig = goal / 5
+   
+  if big >= maxBig:
+    if small >= (goal - maxBig * 5):
+      return goal - maxBig * 5
+  if big < maxBig:
+    if small >= (goal - big * 5):
+      return goal - big * 5
   return -1
