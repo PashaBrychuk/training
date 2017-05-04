@@ -1,3 +1,6 @@
+#here is direct link to this video ion Youtube https://www.youtube.com/watch?v=_AEJHKGk9ns
+
+
 def append_twice_bad(a, b):
 	a = a+[b,b]
 	return a
