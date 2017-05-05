@@ -9,3 +9,11 @@ print id(z)
 z = z.remove(3)
 print z
 print id(z)
+
+k = [1,3]
+c = [2,4]
+k = k+c
+print k
+
+print c.append(4)
+print c
