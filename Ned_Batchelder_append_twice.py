@@ -2,16 +2,19 @@
 
 
 def append_twice_bad(a, b):
+	print id(a)
 	a = a+[b,b]
+	print id(a)
 	return a
 nums = [1,2,3]
+print a
 append_twice_bad(nums, 7)
 print nums
 
-def append_twice_correct(a,b):
+"""def append_twice_correct(a,b):
 	nums.append(b)
 	nums.append(b)
 	return
 nums = [1,2,3]
 append_twice_correct(nums, 7)
-print nums
+print nums"""
