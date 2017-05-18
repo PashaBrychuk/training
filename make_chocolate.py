@@ -9,7 +9,7 @@ def make_chocolate(small, big, goal):
   return -1
 
 """
-def make_chocolate(small, big, goal):
+"""def make_chocolate(small, big, goal):
   maxBig = goal / 5
    
   if big >= maxBig:
@@ -18,7 +18,14 @@ def make_chocolate(small, big, goal):
   if big < maxBig:
     if small >= (goal - big * 5):
       return goal - big * 5
-  return -1
+  return -1"""
 
+def make_chocolate(small, big, goal):
+  if small+big*5<goal or goal%5>small:
+    return -1
+  maxbig = goal/5
+  if big>=maxbig:
+    return goal-maxbig*5
+  return goal-big*5
 
 print 21/ 5
