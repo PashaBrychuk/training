@@ -11,9 +11,10 @@ def checkio(data):
 				if data[i] == data[j]:
 					print  "i", i
 					print "j", j
+					print "-----"
 					sum.append(data[i])
 	return sum
-z = [1,2,3,2,1]
+z = [1,2,3,2,1,1,1,1,1]
 print checkio(z)
 
 
