@@ -6,15 +6,16 @@
 def checkio(data):
 	sum = []
 	for i in range(len(data)):
-		for j in range(1, len(data)-i):
-				
+		for j in range (i+1, len(data)):
 				if data[i] == data[j]:
-					print  "i", i
-					print "j", j
-					print "-----"
-					sum.append(data[i])
+					if data[i] not in sum:
+						print  "i", i
+						print "j", j
+						print "-----"
+						sum.append(data[i])
+					
 	return sum
-z = [1,2,3,2,1,1,1,1,1]
+z = [1,2,3,1,3]
 print checkio(z)
 
 
