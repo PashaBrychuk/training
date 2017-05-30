@@ -12,7 +12,8 @@ def checkio(number):
             number = number % n
     return result
 
-print checkio(1666)  
+print checkio(4666)  
 
 print 1666 //1000
 print ""+"M"*(1666//1000)
+print 1666 %1000
