@@ -7,4 +7,5 @@ def on_connect(client, userdata, flags, rc):
 	print "Bad connection Returned code = ", rc
 broker = "192.168.1.184"
 client = mqtt.Client("Python1")
-print dir(client)
+for i in client.__dict__:
+	print i
