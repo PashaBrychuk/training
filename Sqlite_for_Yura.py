@@ -29,18 +29,20 @@ def create_connection(db_file):
 
 
 
-def add_data(conn):
+def create_table(conn):
     with conn:
     
         cur = conn.cursor()    
-        cur.execute("CREATE TABLE tags(tag_uid  TEXT, app_id  INT, state INT, ttime TEXT)")
-        for i in range(random_number_of_adds()):
-            print i
-            a = genrandom_varchar()
-            b = genrandom_int()
-            c = genrandom_state()
-            d = genrandom_ttime()
-            """"print "printing a----------------------------"
+        cur.execute("CREATE TABLE IF NOT EXISTS tags(tag_uid  TEXT, app_id  INT, state INT, ttime TEXT)")
+        
+def insert_data_into_table(conn):
+    cur = conn.cursor() 
+    for i in range(random_number_of_adds()):
+        a = genrandom_varchar()
+        b = genrandom_int()
+        c = genrandom_state()
+        d = genrandom_ttime()
+        """"print "printing a----------------------------"
                                                             print a
                                                             print "printing b----------------------------"
                                                             print b
@@ -48,8 +50,8 @@ def add_data(conn):
                                                             print c
                                                             print "printing d----------------------------"
                                                             print d"""
-            sql_q = 'INSERT INTO tags VALUES("{0}", {1}, {2}, "{3}")'.format(genrandom_varchar(), genrandom_int(), genrandom_state(), genrandom_ttime())
-            cur.execute(sql_q)
+        sql_q = 'INSERT INTO tags VALUES("{0}", {1}, {2}, "{3}")'.format(genrandom_varchar(), genrandom_int(), genrandom_state(), genrandom_ttime())
+        cur.execute(sql_q)
             #cur.execute("INSERT INTO tags VALUES('pASJA', 12, 13, 'DSADS')")
             #cur.execute("INSERT INTO tags(tag_uid, app_id, state, ttime)  VALUES ('pasha', 2, 3, 'yura')")#cur.execute("INSERT INTO tags VALUES(genrandom_varchar(), genrandom_int(), genrandom_state(), genrandom_ttime())")
 
@@ -87,7 +89,8 @@ def drop_db(conn):
     cur.executescript('drop table if exists tags;')
 
 def delete_records(conn):
-     pass
+     cur = conn.cursor()
+     cur.execute("delete * FROM tags where int(ttime)%2==0 ")
 
 def select_all_data(conn):
 
@@ -148,14 +151,17 @@ def main():
     print type(conn)
     with conn:
        
-      
-       
+        print "Creating table"
+        create_table(conn)
+
+        print "Inserting data"
+        insert_data_into_table(conn)
         
-        print "Dropping data base"
-        drop_db(conn)
+        #print "Dropping data base"
+        #drop_db(conn)
         
-        print "Adding new data"
-        add_data(conn)
+        #print "Adding new data"
+        #add_data(conn)
         
         #print "Quering list of tables"
         #show_tables(conn)
@@ -171,7 +177,7 @@ def main():
  
  
 if __name__ == '__main__':
-    for i in range(1,6):
+    for i in range(1,11):
         main()
         print i
         print "-"*50
