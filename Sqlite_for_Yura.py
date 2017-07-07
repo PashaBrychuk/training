@@ -90,7 +90,7 @@ def drop_db(conn):
 
 def delete_records(conn):
      cur = conn.cursor()
-     cur.execute("delete * FROM tags where int(ttime)%2==0 ")
+     cur.execute("delete FROM tags where app_id %2 == 0")
 
 def select_all_data(conn):
 
@@ -165,6 +165,8 @@ def main():
         
         #print "Quering list of tables"
         #show_tables(conn)
+        print "Deleting records where app_id % 2 == 0"
+        delete_records(conn)
         
         print "Selecting all data"
         select_all_data(conn)
