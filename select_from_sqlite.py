@@ -14,7 +14,7 @@ def create_connection(db_file):
     :return: Connection object or None
     """
     try:
-        conn = sqlite3.connect("/home/pasha/exl")
+        conn = sqlite3.connect("/home/pavlobrychuk/exl")
         return conn
     except Error as e:
         print(e)
@@ -73,7 +73,7 @@ def select_all_tasks(conn):
     :return:
     """
     cur = conn.cursor()
-    cur.execute("SELECT * FROM cars")
+    cur.execute("SELECT * FROM Cars")
  
     rows = cur.fetchall()
     print type(rows)
@@ -91,7 +91,7 @@ def main():
     conn = create_connection(database)
     print type(conn)
     with conn:
-      
+        add_data(conn)
         print "Query all tasks"
         select_all_tasks(conn)
         print "Quering data base version"

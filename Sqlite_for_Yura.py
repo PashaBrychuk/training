@@ -27,23 +27,31 @@ def create_connection(db_file):
  
     return None
 
-def random_number_of_adds():
-    
-    return (randint(0, 10))
+
 
 def add_data(conn):
     with conn:
     
         cur = conn.cursor()    
-        cur.execute("CREATE TABLE tags(tag_uid varchar(21), app_id  INT, state INT, ttime varchar(20))")
+        cur.execute("CREATE TABLE tags(tag_uid  TEXT, app_id  INT, state INT, ttime TEXT)")
         for i in range(random_number_of_adds()):
             print i
             a = genrandom_varchar()
             b = genrandom_int()
             c = genrandom_state()
             d = genrandom_ttime()
-            cur.execute("INSERT INTO tags VALUES(a,b,c,d)")
-            #cur.execute("INSERT INTO tags VALUES(?, ?, ?, ?)",genrandom_varchar(), genrandom_int(), genrandom_state(), genrandom_ttime() )
+            print "printing a----------------------------"
+            print a
+            print "printing b----------------------------"
+            print b
+            print "printing c----------------------------"
+            print c
+            print "printing d----------------------------"
+            print d
+            sql_q = 'INSERT INTO tags VALUES({0}, {1}, {2}, {3})'.format(genrandom_varchar(), genrandom_int(), genrandom_state(), genrandom_ttime())
+            cur.execute(sql_q)
+            #cur.execute("INSERT INTO tags VALUES('pASJA', 12, 13, 'DSADS')")
+            #cur.execute("INSERT INTO tags(tag_uid, app_id, state, ttime)  VALUES ('pasha', 2, 3, 'yura')")#cur.execute("INSERT INTO tags VALUES(genrandom_varchar(), genrandom_int(), genrandom_state(), genrandom_ttime())")
 
 
             #cur.execute("INSERT INTO tags VALUES(genrandom_varchar(), genrandom_int(), genrandom_state(), genrandom_ttime())")
@@ -126,6 +134,12 @@ def genrandom_ttime():
     s = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(N))
     return s
 
+
+def random_number_of_adds():
+    
+    return (randint(0, 10))
+
+
 def main():
     database = "/home/pavlobrychuk/exl"
  
@@ -134,22 +148,26 @@ def main():
     print type(conn)
     with conn:
        
-        #print "Query all tasks"
-        #select_all_data(conn)
-        print "Quering data base version"
-        check_version(conn)
+      
+       
+        
         print "Dropping data base"
         drop_db(conn)
+        
         print "Adding new data"
         add_data(conn)
-        print "Quering list of tables"
-        show_tables(conn)
+        
+        #print "Quering list of tables"
+        #show_tables(conn)
+        
         print "Selecting all data"
         select_all_data(conn)
-        print "Deleting all data"
-        delete_records(conn)
-        print "Selecting all data"
-        select_all_data(conn)
+        
+        #print "Deleting all data"
+        #delete_records(conn)
+        
+        #print "Selecting all data"
+        #select_all_data(conn)
  
  
 if __name__ == '__main__':
