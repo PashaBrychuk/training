@@ -40,15 +40,15 @@ def add_data(conn):
             b = genrandom_int()
             c = genrandom_state()
             d = genrandom_ttime()
-            print "printing a----------------------------"
-            print a
-            print "printing b----------------------------"
-            print b
-            print "printing c----------------------------"
-            print c
-            print "printing d----------------------------"
-            print d
-            sql_q = 'INSERT INTO tags VALUES({0}, {1}, {2}, {3})'.format(genrandom_varchar(), genrandom_int(), genrandom_state(), genrandom_ttime())
+            """"print "printing a----------------------------"
+                                                            print a
+                                                            print "printing b----------------------------"
+                                                            print b
+                                                            print "printing c----------------------------"
+                                                            print c
+                                                            print "printing d----------------------------"
+                                                            print d"""
+            sql_q = 'INSERT INTO tags VALUES("{0}", {1}, {2}, "{3}")'.format(genrandom_varchar(), genrandom_int(), genrandom_state(), genrandom_ttime())
             cur.execute(sql_q)
             #cur.execute("INSERT INTO tags VALUES('pASJA', 12, 13, 'DSADS')")
             #cur.execute("INSERT INTO tags(tag_uid, app_id, state, ttime)  VALUES ('pasha', 2, 3, 'yura')")#cur.execute("INSERT INTO tags VALUES(genrandom_varchar(), genrandom_int(), genrandom_state(), genrandom_ttime())")
@@ -171,7 +171,7 @@ def main():
  
  
 if __name__ == '__main__':
-    for i in range(1,2):
+    for i in range(1,6):
         main()
         print i
         print "-"*50
