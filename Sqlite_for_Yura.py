@@ -33,11 +33,14 @@ def create_table(conn):
     with conn:
     
         cur = conn.cursor()    
-        cur.execute("CREATE TABLE IF NOT EXISTS tags(tag_uid  TEXT, app_id  INT, state INT, ttime TEXT)")
-        
+        #cur.execute("CREATE TABLE IF NOT EXISTS tags(tag_uid  TEXT, app_id  INT, state INT, ttime TEXT)")
+        cur.execute("CREATE TABLE IF NOT EXISTS tags(tag_uid varchar(21) primary key, app_id int, state int, ttime varchar(20))")
 def insert_data_into_table(conn):
     cur = conn.cursor() 
     for i in range(random_number_of_adds()):
+        """print "--"*20
+                                print random_number_of_adds()
+                                print "++"*20"""
         a = genrandom_varchar()
         b = genrandom_int()
         c = genrandom_state()
@@ -165,10 +168,12 @@ def main():
         
         #print "Quering list of tables"
         #show_tables(conn)
+        print "Selecting all data"
+        select_all_data(conn)
         print "Deleting records where app_id % 2 == 0"
         delete_records(conn)
-        
-        print "Selecting all data"
+                                
+        print "After deletion"
         select_all_data(conn)
         
         #print "Deleting all data"
@@ -176,14 +181,16 @@ def main():
         
         #print "Selecting all data"
         #select_all_data(conn)
+
+        #drop_db(conn)
  
  
 if __name__ == '__main__':
-    for i in range(1,11):
+    for i in range(1,101):
         main()
         print i
         print "-"*50
         time.sleep(10)
-        if i==10:
+        if i==100:
             print "The end"
-        
+         
