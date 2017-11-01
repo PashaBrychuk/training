@@ -11,4 +11,13 @@ print s.login("172.24.223.58", "root","", original_prompt="root@congatec-qa3-64:
 print s.isalive()
 #print help(s.login)
 
-print help(s)
+#print help(s)
+
+"""print s.send("systemctl stop hilti-tag-observer\n")
+print s.prompt()
+print s.send("systemctl start hilti-tag-observer\n")
+print s.prompt()"""
+
+s.interact()
+
+print "!"

@@ -23,7 +23,8 @@ print stdout"""
 import pexpect
 from pexpect import pxssh
 
-pexpect.spawn('rm -rf /home/pavlobrychuk/.ssh/known_hosts')
+pexpect.spawn('rm -rf /home/pavlobrychuk/dev/temp/dmesg.txt')
+
 """child = pexpect.spawn("sudo ssh-keygen -f \"/root/.ssh/known_hosts\" -R 172.24.223.58")
 child.expect("\[sudo\] password for pavlobrychuk:") 
 child.sendline('solYma8067')
@@ -36,8 +37,10 @@ child.sendline('yes')
 
 
 child=pexpect.spawn("ssh root@172.24.223.58")
-child.expect("The authenticity of host \'172.24.223.58 (172.24.223.58)\' can\'t be established.RSA key fingerprint is SHA256:N8IQnfyFpZOYf7AjUcTdwX/nwykpj8HpN5NYMEnMBYg.Are you sure you want to continue connecting (yes/no)?") 
-child.sendline('yes')
+if child.expect(["Host \'172.24.223.58\' is not in the trusted hosts file.(ssh-rsa fingerprint md5 c9:b9:e3:24:2d:51:f7:e4:f5:99:bf:13:7c:a4:54:3b)Do you want to continue connecting? (y/n) "]):
+	child.sendline('yes')
+child.expect_exact(pexpect.EOF, timeout=None)
+
 child.expect('root@congatec-qa3-64:~\#')
 child = pexpect.spawn("ssh root@172.24.223.58 mkdir \/etc\/hilti\/lala")
 #hild.expect('root@congatec-qa3-64:~#')
