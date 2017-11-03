@@ -2,6 +2,20 @@ from pexpect import pxssh
 import pexpect
 host = pxssh.pxssh()
 
+
+
+
+child = pexpect.spawn("df -h")
+child = sendline("sudo ssh-keygen -f /home/pavlobrychuk/.ssh/known_hosts -R 172.24.223.58")
+child.expect("\[sudo\] password for pavlobrychuk:") 
+child.sendline('solYma8067')
+child.expect_exact(pexpect.EOF, timeout=None)
+
+
+Чувак, все что выше нужно исправить так как оно нифига не работает!!!!
+
+
+
 host.login ("172.24.223.58", "root")
 #child.pexpect("rm -rf ssh-keygen -f /home/pavlobrychuk/.ssh/known_hosts -R 172.24.223.58")
 host.logfile = open("/home/pavlobrychuk/tmp/logfile222.txt", "w")
