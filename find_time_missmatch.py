@@ -18,16 +18,42 @@ find_time()
 
 
 k= s[0]
-print k[14:-4]
+#print k[14:-4]
 
 
 m=[]
 for i in s:
 	m.append(i[14:-4])
-print m
-print m[0]
+
+setb= set(m)
+print len(m)
+print "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+#print m
+#print m[0]
+
+from datetime import datetime
+dates = [datetime.strptime(i, "%Y-%m-%dT%H:%M:%S") for i in m]
+print dates
+
+
+seta=set(dates)
+print len(seta)
+print "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+final=[]
+for d in dates:
+	
+	#d.toordinal()
+	final.append(d.toordinal())
+
+print final
+
 #def compare_time(s):
 #	return s
 
 
 #print compare_time(s)
+for i in m:
+	if i not in setb:
+		print i
+else: 
+	print "all m are in"
