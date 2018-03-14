@@ -52,8 +52,6 @@ print final
 
 
 #print compare_time(s)
-for i in m:
-	if i not in setb:
-		print i
-else: 
-	print "all m are in"
+
+print "counter on duplicated messages"
+print len(m) - len (setb)
