@@ -43,6 +43,7 @@ final=[]
 for d in dates:
 	
 	#d.toordinal()
+	time.mktime(d.timetuple())
 	final.append(d.toordinal())
 
 print final
@@ -53,5 +54,5 @@ print final
 
 #print compare_time(s)
 
-print "counter on duplicated messages"
+print "counter of duplicated messages"
 print len(m) - len (setb)
