@@ -1,0 +1,262 @@
+Nov 09 13:52:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:51:43Z
+
+Nov 09 13:52:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:51:43Z
+
+Nov 09 13:52:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:51:43Z
+
+Nov 09 13:53:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:53:18Z
+
+Nov 09 13:53:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:51:43Z
+
+Nov 09 13:53:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:53:18Z
+
+Nov 09 13:54:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:53:23Z
+
+Nov 09 13:54:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:53:18Z
+
+Nov 09 13:54:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:53:23Z
+
+Nov 09 13:55:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:54:53Z
+
+Nov 09 13:55:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:53:23Z
+
+Nov 09 13:55:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:54:53Z
+
+Nov 09 13:55:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 13:55:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 13:55:44 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m440, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 13:55:44 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m441, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (326 bytes))
+
+Nov 09 13:56:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:54:53Z
+
+Nov 09 13:56:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 gone 2017-11-09T13:54:53Z
+
+Nov 09 13:57:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:57:03Z
+
+Nov 09 13:57:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:57:03Z
+
+Nov 09 13:57:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:57:03Z
+
+Nov 09 13:58:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:58:13Z
+
+Nov 09 13:58:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:57:03Z
+
+Nov 09 13:58:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:58:13Z
+
+Nov 09 13:59:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:58:13Z
+
+Nov 09 13:59:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 gone 2017-11-09T13:58:13Z
+
+Nov 09 13:59:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 13:59:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 13:59:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 13:59:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 13:59:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 13:59:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 13:59:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m833, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 13:59:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m834, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 13:59:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m835, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 13:59:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m836, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (327 bytes))
+
+Nov 09 13:59:44 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m837, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (322 bytes))
+
+Nov 09 13:59:44 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m838, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (327 bytes))
+
+Nov 09 14:00:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:59:58Z
+
+Nov 09 14:00:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:59:58Z
+
+Nov 09 14:00:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:59:58Z
+
+Nov 09 14:01:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T13:59:58Z
+
+Nov 09 14:01:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 gone 2017-11-09T13:59:58Z
+
+Nov 09 14:02:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:02:13Z
+
+Nov 09 14:02:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:02:13Z
+
+Nov 09 14:02:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:02:13Z
+
+Nov 09 14:03:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:03:08Z
+
+Nov 09 14:03:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:02:13Z
+
+Nov 09 14:03:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:03:08Z
+
+Nov 09 14:03:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 14:03:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 14:03:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 14:03:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 14:03:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 14:03:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 14:03:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1194, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 14:03:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1195, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 14:03:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1196, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 14:03:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1197, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (326 bytes))
+
+Nov 09 14:03:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1198, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (327 bytes))
+
+Nov 09 14:03:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1199, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (326 bytes))
+
+Nov 09 14:04:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:03:08Z
+
+Nov 09 14:04:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 gone 2017-11-09T14:03:08Z
+
+Nov 09 14:05:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:04:43Z
+
+Nov 09 14:05:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:04:43Z
+
+Nov 09 14:05:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:04:43Z
+
+Nov 09 14:06:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:04:43Z
+
+Nov 09 14:06:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 gone 2017-11-09T14:04:43Z
+
+Nov 09 14:07:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:07:04Z
+
+Nov 09 14:07:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:07:04Z
+
+Nov 09 14:07:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:07:04Z
+
+Nov 09 14:07:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 14:07:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 14:07:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 14:07:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 14:07:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 14:07:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 14:07:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 14:07:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 14:07:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1551, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 14:07:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1552, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 14:07:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1553, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 14:07:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1554, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 14:07:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1555, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (327 bytes))
+
+Nov 09 14:07:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1556, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (326 bytes))
+
+Nov 09 14:07:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1557, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (327 bytes))
+
+Nov 09 14:07:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1558, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (326 bytes))
+
+Nov 09 14:08:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:07:04Z
+
+Nov 09 14:08:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 gone 2017-11-09T14:07:04Z
+
+Nov 09 14:09:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:08:54Z
+
+Nov 09 14:09:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:08:54Z
+
+Nov 09 14:09:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:08:54Z
+
+Nov 09 14:10:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:10:14Z
+
+Nov 09 14:10:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:08:54Z
+
+Nov 09 14:10:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:10:14Z
+
+Nov 09 14:11:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:10:54Z
+
+Nov 09 14:11:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:10:14Z
+
+Nov 09 14:11:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:10:54Z
+
+Nov 09 14:11:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 14:11:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 14:11:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 14:11:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 14:11:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1902, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 14:11:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1903, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 14:11:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1904, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (327 bytes))
+
+Nov 09 14:11:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m1905, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (326 bytes))
+
+Nov 09 14:12:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:10:54Z
+
+Nov 09 14:12:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 gone 2017-11-09T14:10:54Z
+
+Nov 09 14:13:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:12:29Z
+
+Nov 09 14:13:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:12:29Z
+
+Nov 09 14:13:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:12:29Z
+
+Nov 09 14:14:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:13:44Z
+
+Nov 09 14:14:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:12:29Z
+
+Nov 09 14:14:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:13:44Z
+
+Nov 09 14:15:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:15:09Z
+
+Nov 09 14:15:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:13:44Z
+
+Nov 09 14:15:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:15:09Z
+
+Nov 09 14:15:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 14:15:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation
+
+Nov 09 14:15:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 14:15:42 congatec-qa3-64 hilti-tag-observer[385]: sent topic: gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata
+
+Nov 09 14:15:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m2291, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 14:15:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m2292, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/geolocation', ... (194 bytes))
+
+Nov 09 14:15:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m2293, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (327 bytes))
+
+Nov 09 14:15:43 congatec-qa3-64 hilti-tag-observer[385]: Client TID-2182497-320000001 sending PUBLISH (d0, q1, r0, m2294, 'gateways/ontrackgl/TID-2182497-320000001/tags/ontrack/TID-2145807-300005552/ontrackdata', ... (326 bytes))
+
+Nov 09 14:16:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:15:44Z
+
+Nov 09 14:16:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:15:09Z
+
+Nov 09 14:16:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:15:44Z
+
+Nov 09 14:17:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:17:14Z
+
+Nov 09 14:17:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:15:44Z
+
+Nov 09 14:17:41 congatec-qa3-64 hilti-tag-observer[385]: tag id: TID-2145807-300005552 new 2017-11-09T14:17:14Z
+
