@@ -1,0 +1,1 @@
+#parsing csv based on youtube https://www.youtube.com/watch?v=RrPZza_vZ3w
