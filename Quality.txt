@@ -1,0 +1,42 @@
+We use testing to help us find faults and (potential) failures during software
+development, maintenance and operations. We do this to help reduce the risk
+of failures occurring in an operational environment - in other words once the
+system is being used - and to contribute to the quality of the software system.
+
+Main testing objectives on Hiilti IoT Gateway project are:
+• finding defects;
+• gaining confidence in and providing information about the levelof quality;
+• preventing defects.
+
+
+All needed equipment exists including faraday's cage, real gateways and Hilti BLE tags
+
+Testing process started on the very early project phase and is done in parallel with development
+
+QA team is a part of development team and is placed in the same location as a result it has needed level of independence but is not isolated from the dev team so here are the benefits:
+
+
+    The tester sees each defect in a neutral perspective
+    The tester is totally unbiased
+    The tester sees what has been built rather than what the developer thought
+    The tester makes no assumptions regarding quality
+    The tester is able to communicate with development team with no delays
+
+
+
+Testing is done on different environments - local(with local MQTT broker), on Hilti Q environment(https://ontrack-q.hilti.com/ontrack/#/) using real life configuration and Hilti Q ontrack application.
+
+Testing is done according to test cases that were elicted from requirements and specification
+
+Testing is done according to test suites that consist of functional and non functional test cases.
+
+Services provided by Rigado are covered with functional and non functional test cases which are a part of regression test suite.
+
+Each new release candidate is tested using regression test suite before release.
+
+All testing related documentation is created and maintained in Hilti Jira and Hilti Confluence
+
+Issues found during testing are logged to Jira and retested after the fix. Also they are added to regression test suite and retested before next release with release candidate
+
+
+
